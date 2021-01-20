@@ -1,49 +1,82 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
-  <meta property='og:type' content='website'>
-  <meta property='og:title' content='WebデザイナーTARO YAMADA ポートフォリオ'>
-  <meta property='og:url' content='URLが入る'>
-  <meta property='og:description' content='Webデザイナー TARO YAMADAのポートフォリオサイトです！'>
-  <meta property="og:image" content="img/ogp.png">
-  <meta name="description" content="Webデザイナー TARO YAMADAのポートフォリオサイトです！" />
-  <title>Webデザイナー TARO YAMADA ポートフォリオ</title>
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:700" rel="stylesheet">
-  <link href="css/reset.css" media="all" rel="stylesheet" type="text/css" />
-  <link href="css/photoswipe/photoswipe.css" media="all" rel="stylesheet" type="text/css" />
-  <link href="css/photoswipe/default-skin/default-skin.css" media="all" rel="stylesheet" type="text/css" />
-  <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
-  <link rel="shortcut icon" href="img/favicon.ico" />
-  <link rel=”canonical” href=”URLが入る” />
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Ryo Maemura Portfolio">
+  <meta property="og:url" content="">
+  <meta property="og:description" content="Ryo Maemura のポートフォリオサイトです">
+  <meta property="og:image" content="">
+  <meta name="description" content="Ryo Maemura のポートフォリオサイトです">
+
+  <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:700" rel="stylesheet"> -->
+  <link href="css/reset.css" media="all" rel="stylesheet" type="text/css">
+  <link href="css/photoswipe/photoswipe.css" media="all" rel="stylesheet" type="text/css">
+  <link href="css/photoswipe/default-skin/default-skin.css" media="all" rel="stylesheet" type="text/css">
+  <link href="css/style.css" media="all" rel="stylesheet" type="text/css">
+  <link rel="shortcut icon" href="img/favicon.ico">
+  <link rel=”canonical” href=””>
+
+  <title>Ryo Maemura Portfolio</title>
 </head>
 
 <body>
   <div class="wrapper">
 
     <!-- .gnav -->
-    <nav class="gnav" class="fixed">
+    <header class="gnav">
       <ul class="gnav-list">
-        <li class="gnav-item"><a class="gnav-link" href="#works-section">WORKS</a></li>
-        <li class="gnav-item"><a class="gnav-link" href="#feature-section">FEATURE</a></li>
-        <li class="gnav-item"><a class="gnav-link" href="#about-section">ABOUT</a></li>
-        <li class="gnav-item"><a class="gnav-link" href="#skill-section">SKILL</a></li>
-        <li class="gnav-item"><a class="gnav-link" href="#contact-section">CONTACT</a></li>
+        <li class="gnav-item"><a class="gnav-link" href="#home">Home</a></li>
+        <li class="gnav-item"><a class="gnav-link" href="#profile">Profile</a></li>
+        <li class="gnav-item"><a class="gnav-link" href="#works-section">Works</a></li>
+        <li class="gnav-item"><a class="gnav-link" href="#skills-section">Skills</a></li>
+        <li class="gnav-item"><a class="gnav-link" href="#contact-section">Contact</a></li>
       </ul>
-    </nav>
+    </header>
     <!-- /.gnav -->
 
-    <!-- .header -->
-    <header class="header">
-      <h1 class="logo">
-        <div class="logo-title">TARO YAMADA</div>
-        <div class="logo-subtitle">PORTFOLIO</div>
-      </h1>
-    </header>
-    <!-- /.header -->
-
     <main class="content">
+
+      <!-- #home -->
+      <section id="home">
+        <h1 class="logo">
+          <div class="logo-title">Ryo Maemura</div>
+          <div class="logo-subtitle">Portfolio</div>
+        </h1>
+      </section>
+      <!-- /#home -->
+
+      <!-- #profile -->
+      <section id="profile">
+        <div class="inner">
+          <div class="section-heading">
+            <h2 class="heading-primary">Profile</h2>
+          </div>
+          <div class="section-lead">
+            <p>
+              こんにちは！
+            </p>
+          </div>
+          <div class="section-body profile">
+            <div class="profile-item">
+              <div class="profile-image-wrapper">
+                <img class="profile-image lazyload fadein" data-src="img/profile/profile.jpg" alt="">
+              </div>
+              <div class="profile-body">
+                <p>
+                  テキストテキストテキストテキストテキストテキストテキストテキストテキスト<br>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                </p>
+                <p>
+                  テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /#profile -->
 
       <!-- .works-section -->
       <section class="works-section section" id="works-section">
@@ -160,36 +193,6 @@
         </div>
       </section>
       <!-- /.feature-section -->
-
-      <!-- .about-section -->
-      <section class="about-section section" id="about-section">
-        <div class="inner">
-          <div class="section-heading">
-            <h2 class="heading-primary">ABOUT</h2>
-          </div>
-          <div class="section-lead">
-            <p>
-              こんにちは！
-            </p>
-          </div>
-          <div class="section-body about">
-            <div class="about-item">
-              <div class="about-image-wrapper">
-                <img class="about-image lazyload fadein" data-src="img/about/profile.jpg" alt="">
-              </div>
-              <div class="about-body">
-                <p>
-                  テキストテキストテキストテキストテキストテキストテキストテキストテキスト<br>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-                </p>
-                <p>
-                  テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- /.about-section -->
 
       <!-- .skill-section -->
       <section class="skill-section section" id="skill-section">
@@ -324,7 +327,7 @@
         トップへもどる
       </div>
       <div class="inner">
-        <div class="copyright">Copyright&copy;TARO YAMADA. All Rights Reserved.</div>
+        <div class="copyright">Copyright &copy; 2021 Ryo Maemura. All Rights Reserved.</div>
       </div>
     </footer>
     <!-- /.footer -->
@@ -398,6 +401,7 @@
     </div>
 
   </div>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script type='text/javascript' src="js/photoswipe/photoswipe.min.js"></script>
   <script type='text/javascript' src="js/photoswipe/photoswipe-ui-default.js"></script>
