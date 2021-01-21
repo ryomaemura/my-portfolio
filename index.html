@@ -31,7 +31,7 @@
         <li class="gnav-item"><a class="gnav-link" href="#home">Home</a></li>
         <li class="gnav-item"><a class="gnav-link" href="#profile">Profile</a></li>
         <li class="gnav-item"><a class="gnav-link" href="#works">Works</a></li>
-        <li class="gnav-item"><a class="gnav-link" href="#skills-section">Skills</a></li>
+        <li class="gnav-item"><a class="gnav-link" href="#skills">Skills</a></li>
         <li class="gnav-item"><a class="gnav-link" href="#contact-section">Contact</a></li>
       </ul>
     </header>
@@ -40,7 +40,7 @@
     <main class="content">
 
       <!-- #home -->
-      <section id="home">
+      <section class="section" id="home">
         <h1 class="logo">
           <div class="logo-title">Ryo Maemura</div>
           <div class="logo-subtitle">Portfolio</div>
@@ -49,7 +49,7 @@
       <!-- /#home -->
 
       <!-- #profile -->
-      <section id="profile">
+      <section class="section" id="profile">
         <div class="inner">
           <div class="section-heading">
             <h2 class="heading-primary">Profile</h2>
@@ -62,7 +62,7 @@
           <div class="section-body profile">
             <div class="profile-item">
               <div class="profile-image-wrapper">
-                <img class="profile-image lazyload fadein" data-src="img/profile/profile.jpg" alt="">
+                <img class="profile-image" src="img/profile/profile.jpg" alt="">
               </div>
               <div class="profile-body">
                 <p>
@@ -79,126 +79,45 @@
       <!-- /#profile -->
 
       <!-- #works -->
-      <section class="works-section section" id="works">
+      <section class="section" id="works">
         <div class="inner">
           <div class="section-heading">
             <h2 class="heading-primary">Works</h2>
           </div>
           <div class="section-lead">
-            <p>Web（デザインとコーディング）制作の記録です。<br>デザイン練習用の架空サイト（ファーストビューのみ）も含んでおります。</p>
+            <p>オリジナル作品一覧</p>
           </div>
           <div class="section-body works">
             <div class="works-list js-my-gallery">
-              <figure class="works-item">
-                <a href="img/works/company.jpg" data-size="960x720" class="works-image-wrapper works-link hover-action">
-                  <img class="works-image lazyload fadein" src="img/placeholder4x3.png" data-src="img/works/company.jpg"
-                    alt="" />
+              <div class="works-item">
+                <a href="https://google.co.jp" class="works-link" target="_blank">
+                  <img class="works-image" src="img/works/company.jpg" alt="">
                 </a>
-                <figcaption class="works-body">
+                <div class="works-body">
                   <div class="works-title">サイト名が入る</div>
-                  <div class="works-text">Design / Coding(Responsive) / WordPress</div>
-                  <div class="works-url"><a class="works-url-link" href="https://yahoo.co.jp" target="_blank">Link</a>
-                  </div>
-                </figcaption>
-              </figure>
-              <figure class="works-item">
-                <a href="img/works/hairsalon.jpg" data-size="960x720"
-                  class="works-image-wrapper works-link hover-action">
-                  <img class="works-image lazyload fadein" src="img/placeholder4x3.png"
-                    data-src="img/works/hairsalon.jpg" alt="" />
+                  <div class="works-text">Design / Coding</div>
+                </div>
+              </div>
+              <div class="works-item">
+                <a href="https://google.co.jp" class="works-link" target="_blank">
+                  <img class="works-image" src="img/works/company.jpg" alt="">
                 </a>
-                <figcaption class="works-body">
+                <div class="works-body">
                   <div class="works-title">サイト名が入る</div>
-                  <div class="works-text">Design / Coding(Responsive) </div>
-                  <div class="works-url"><a class="works-url-link" href="https://yahoo.co.jp" target="_blank">Link</a>
-                  </div>
-                </figcaption>
-              </figure>
-              <figure class="works-item">
-                <a href="img/works/girly.jpg" data-size="960x720" class="works-image-wrapper works-link hover-action">
-                  <img class="works-image lazyload fadein" src="img/placeholder4x3.png" data-src="img/works/girly.jpg"
-                    alt="" />
-                </a>
-                <figcaption class="works-body">
-                  <div class="works-title">サイト名が入る</div>
-                  <div class="works-text">Design</div>
-                </figcaption>
-              </figure>
-              <figure class="works-item">
-                <a href="img/works/school.jpg" data-size="960x720" class="works-image-wrapper works-link hover-action">
-                  <img class="works-image lazyload fadein" src="img/placeholder4x3.png" data-src="img/works/school.jpg"
-                    alt="" />
-                </a>
-                <figcaption class="works-body">
-                  <div class="works-title">サイト名が入る</div>
-                  <div class="works-text">Design</div>
-                </figcaption>
-              </figure>
-              <figure class="works-item">
-                <a href="img/works/game.jpg" data-size="960x720" class="works-image-wrapper works-link hover-action">
-                  <img class="works-image lazyload fadein" src="img/placeholder4x3.png" data-src="img/works/game.jpg"
-                    alt="" />
-                </a>
-                <figcaption class="works-body">
-                  <div class="works-title">サイト名が入る</div>
-                  <div class="works-text">Design</div>
-                </figcaption>
-              </figure>
-              <figure class="works-item">
-                <a href="img/works/fashion.jpg" data-size="960x720" class="works-image-wrapper works-link hover-action">
-                  <img class="works-image lazyload fadein" src="img/placeholder4x3.png" data-src="img/works/fashion.jpg"
-                    alt="" />
-                </a>
-                <figcaption class="works-body">
-                  <div class="works-title">サイト名が入る</div>
-                  <div class="works-text">Design</div>
-                </figcaption>
-              </figure>
+                  <div class="works-text">Design / Coding</div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </section>
       <!-- /#works -->
 
-      <!-- .feature-section -->
-      <section class="feature-section section" id="feature-section">
+      <!-- #skills -->
+      <section class="section" id="skills">
         <div class="inner">
           <div class="section-heading">
-            <h2 class="heading-primary">FEATURE</h2>
-          </div>
-          <div class="section-lead">
-            <p>
-              １サイトの解説
-            </p>
-          </div>
-          <div class="section-body feature">
-            <div class="feature-item">
-              <div class="feature-image-wrapper">
-                <a href="https://www.yahoo.co.jp/" target="_blank" class="hover-action"><img clas="feature-image"
-                    src="img/feature/feature.jpg" alt=""></a>
-              </div>
-              <div class="feature-body">
-                <p>
-                  <span class="text-bold">サイト名：</span><br>サイト名が入る<br><a href="#" target="_blank">https://●●●.com</a></p>
-                <p><span class="text-bold">担当：</span><br>Design / Coding (Responsive) / WordPress / Writing</p>
-                <p><span
-                    class="text-bold">コメント：</span><br>テキストテキストテキストテキストテキストテキストテキストテキストテキスト<br>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-                </p>
-                <p>
-                  テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
-                <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- /.feature-section -->
-
-      <!-- .skill-section -->
-      <section class="skill-section section" id="skills-section">
-        <div class="inner">
-          <div class="section-heading">
-            <h2 class="heading-primary">SKILL</h2>
+            <h2 class="heading-primary">Skills</h2>
           </div>
           <div class="section-lead">
             <p>
@@ -289,7 +208,7 @@
           </div>
         </div>
       </section>
-      <!-- /.skill-section -->
+      <!-- /#skills -->
 
       <!-- .contact-section -->
       <section class="contact-section section" id="contact-section">
@@ -403,10 +322,10 @@
   </div>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script type='text/javascript' src="js/photoswipe/photoswipe.min.js"></script>
-  <script type='text/javascript' src="js/photoswipe/photoswipe-ui-default.js"></script>
-  <script type='text/javascript' src="js/photoswipe/photoswipe-setup.js"></script>
-  <script type='text/javascript' src="js/lazysizes/lazysizes.min.js"></script>
+  <!-- <script type='text/javascript' src="js/photoswipe/photoswipe.min.js"></script> -->
+  <!-- <script type='text/javascript' src="js/photoswipe/photoswipe-ui-default.js"></script> -->
+  <!-- <script type='text/javascript' src="js/photoswipe/photoswipe-setup.js"></script> -->
+  <!-- <script type='text/javascript' src="js/lazysizes/lazysizes.min.js"></script> -->
   <script type='text/javascript' src="js/script.js"></script>
 </body>
 </html>
