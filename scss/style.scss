@@ -274,24 +274,13 @@ ul, li {
 }
 
 .skill-item {
-  display: flex;
-  flex: 0 0 46%;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin-bottom: 50px;
+  flex: 0 0 21%;
+  margin-bottom: 30px;
+  text-align: center;
 }
 
 .skill-image-wrapper {
-  flex: 0 0 60px;
-  margin-right: 20px;
-}
-
-.skill-body {
-  flex: 1;
-
-  p:not(:last-child) {
-    margin-bottom: 20px;
-  }
+  margin-bottom: 10px;
 }
 
 .skill-title {
@@ -300,16 +289,18 @@ ul, li {
 
 .rate {
   position: relative;
-  font-size: 16px;
+  font-size: 1.6rem;
   display: inline-block;
   width: 100%;
   height: 20px;
   letter-spacing: .3em;
 
-  &:before, &:after {
+  &:before,
+  &:after {
     position: absolute;
     top: 0;
     left: 0;
+    margin-left: calc(50% - 50px);
     line-height: 20px;
     display: inline-block;
     height: 20px;
