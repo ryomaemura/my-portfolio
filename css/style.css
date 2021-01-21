@@ -278,16 +278,6 @@ ul, li {
   font-size: 1rem;
 }
 
-.works-image.fadein {
-  -webkit-transition: 1.5s;
-  transition: 1.5s;
-  opacity: 0;
-}
-
-.works-image.fadein.lazyloaded {
-  opacity: 1;
-}
-
 #skills .inner {
   max-width: 1000px;
 }
@@ -370,9 +360,6 @@ ul, li {
   width: 100px;
 }
 
-/*--------------------------------
- Contact
----------------------------------*/
 .contact-list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -398,9 +385,6 @@ ul, li {
   text-align: center;
 }
 
-/*--------------------------------
- フッター
----------------------------------*/
 .footer {
   background-color: #1d1d1d;
 }
@@ -425,11 +409,9 @@ ul, li {
   background-color: #ccc;
 }
 
-/*media Queries 767
-----------------------------------------------------*/
 @media screen and (max-width: 767px) {
   body {
-    font-size: 13px;
+    font-size: 1.3rem;
     line-height: 1.7;
   }
   .pc-only {
@@ -438,26 +420,14 @@ ul, li {
   .sp-only {
     display: block;
   }
-  .hover-action {
-    -webkit-transition: none;
-    transition: none;
-  }
-  .hover-action:hover {
-    -webkit-transition: none;
-    transition: none;
-    -webkit-transform: none;
-    transform: none;
-  }
-  /* 文字 */
   .section-heading {
     margin-bottom: 20px;
   }
   .heading-primary {
-    font-size: 22px;
+    font-size: 2.2rem;
   }
-  /* レイアウト */
   .wrapper {
-    padding-top: 82px;
+    padding-top: 56px;
   }
   .section {
     padding: 60px 0;
@@ -465,18 +435,6 @@ ul, li {
   .section .inner {
     padding: 0 15px;
   }
-  /* ヘッダー */
-  header {
-    height: 70vh;
-  }
-  .logo-title {
-    font-size: 28px;
-    letter-spacing: .16em;
-  }
-  .logo-subtitle {
-    font-size: 14px;
-  }
-  /* グローバルナビ */
   .gnav {
     padding: 15px 0;
   }
@@ -493,12 +451,26 @@ ul, li {
   .gnav-link:after {
     display: none;
   }
-  /* Works */
+  .logo-title {
+    font-size: 2.8rem;
+    letter-spacing: .16em;
+  }
+  .logo-subtitle {
+    font-size: 1.4rem;
+  }
+  .profile-item {
+    display: block;
+  }
+  .profile-image-wrapper {
+    width: 100px;
+    max-width: 100%;
+    margin: 0 auto 20px;
+  }
   .works-body {
     text-align: left;
   }
   .works-title {
-    font-size: 10px;
+    font-size: 1rem;
   }
   .works-list {
     -webkit-box-pack: justify;
@@ -506,50 +478,33 @@ ul, li {
             justify-content: space-between;
   }
   .works-item {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 48%;
-            flex: 0 0 48%;
     margin-right: 0;
     margin-bottom: 30px;
   }
-  /* Feature */
-  .feature-item {
-    display: block;
+  .works-link {
+    -webkit-transition: none;
+    transition: none;
   }
-  .feature-image-wrapper {
-    max-width: 100%;
-    margin-right: 0;
-    margin-bottom: 20px;
+  .works-link:hover {
+    -webkit-transition: none;
+    transition: none;
+    -webkit-transform: none;
+            transform: none;
   }
-  /* About */
-  .about-item {
-    display: block;
-  }
-  .about-image-wrapper {
-    width: 100px;
-    max-width: 100%;
-    margin: 0 auto 20px;
-  }
-  /* Skill */
   .skill-list {
-    display: block;
     margin-bottom: 0;
   }
   .skill-item {
-    max-width: 100%;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
     margin-bottom: 35px;
   }
   .skill-item:last-child {
     margin-bottom: 0;
   }
-  .skill-image-wrapper {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 75px;
-            flex: 0 0 75px;
-    margin-right: 15px;
-  }
   .rate {
-    font-size: 15px;
+    font-size: 1.5rem;
     height: 15px;
   }
   .rate:before, .rate:after {
@@ -571,12 +526,10 @@ ul, li {
   .rate5:after {
     width: 95px;
   }
-  /* Contact */
   .contact-item {
     width: 40px;
     margin: 0 10px;
   }
-  /* フッター */
   .footer .inner {
     padding: 20px 0;
   }
