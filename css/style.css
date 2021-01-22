@@ -75,7 +75,7 @@ ul, li {
   padding: 120px 0;
 }
 
-.section:nth-of-type(2n - 1) {
+.section:nth-of-type(2n) {
   background-color: #f7f7f7;
 }
 
@@ -236,10 +236,6 @@ ul, li {
           flex: 1;
 }
 
-.profile-body p:not(:last-child) {
-  margin-bottom: 20px;
-}
-
 .works-list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -268,6 +264,7 @@ ul, li {
   width: 100%;
   height: 250px;
   overflow: hidden;
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .works-link .caption {
@@ -352,18 +349,21 @@ ul, li {
 
 .skill-item {
   -webkit-box-flex: 0;
-      -ms-flex: 0 0 21%;
-          flex: 0 0 21%;
+      -ms-flex: 0 0 23%;
+          flex: 0 0 23%;
   margin-bottom: 30px;
   text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 0 1px 5px #ccc;
+          box-shadow: 0 1px 5px #ccc;
 }
 
 .skill-image-wrapper {
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 
 .skill-image {
-  border: 1px solid rgba(0, 0, 0, 0.4);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 .skill-title {
@@ -382,8 +382,8 @@ ul, li {
 .rate:before, .rate:after {
   position: absolute;
   top: 0;
-  left: 0;
-  margin-left: calc(50% - 50px);
+  left: 50%;
+  margin-left: -50px;
   line-height: 20px;
   display: inline-block;
   height: 20px;
@@ -521,20 +521,24 @@ ul, li {
     max-width: 100%;
     margin: 0 auto 20px;
   }
-  .works-body {
-    text-align: left;
+  .profile-body {
+    padding: 0 30px;
   }
   .works-title {
     font-size: 1rem;
   }
   .works-list {
+    display: block;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
   .works-item {
     margin-right: 0;
-    margin-bottom: 30px;
+    margin-bottom: 80px;
+  }
+  .works-item:last-child {
+    margin-bottom: 50px;
   }
   .works-link {
     -webkit-transition: none;
@@ -551,12 +555,9 @@ ul, li {
   }
   .skill-item {
     -webkit-box-flex: 0;
-        -ms-flex: 0 0 50%;
-            flex: 0 0 50%;
+        -ms-flex: 0 0 48%;
+            flex: 0 0 48%;
     margin-bottom: 35px;
-  }
-  .skill-item:last-child {
-    margin-bottom: 0;
   }
   .rate {
     font-size: 1.5rem;
