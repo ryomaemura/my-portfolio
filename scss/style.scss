@@ -320,6 +320,13 @@ ul, li {
   text-align: center;
   border: 1px solid rgba($color: #000, $alpha: 0.4);
   box-shadow: 0 1px 5px #ccc;
+  cursor: pointer;
+  transition: .3s;
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 2px 9px rgba($color: #999, $alpha: 1.0);
+  }
 }
 
 .skill-image-wrapper {

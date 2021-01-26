@@ -356,6 +356,16 @@ ul, li {
   border: 1px solid rgba(0, 0, 0, 0.4);
   -webkit-box-shadow: 0 1px 5px #ccc;
           box-shadow: 0 1px 5px #ccc;
+  cursor: pointer;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.skill-item:hover {
+  -webkit-transform: translateY(-4px);
+          transform: translateY(-4px);
+  -webkit-box-shadow: 0 2px 9px #999999;
+          box-shadow: 0 2px 9px #999999;
 }
 
 .skill-image-wrapper {
