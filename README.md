@@ -9,17 +9,19 @@
 
 学歴：東京電機大学理工学部入学
 
-コメント：高校生の頃にプログラミングを触ってから、コードを書いてプログラムを作る事が楽しくなりエンジニアになりたいと思っています。
+趣味：ゲーム（ドラクエ / スマブラ）/ 動画を見る / プログラミング
+
+コメント：高校生の時にプログラミングを初めてそこから自分でモノを作るのが好きになりました
 
 ## 【Works】
+### ＜Action Plan＞
+[Action Plan](http://action-plans.herokuapp.com/)
+
+[GitHub](https://github.com/ryomaemura/action-plan)
 ### ＜Books Channel＞
 [Books Channel](http://books-channel.herokuapp.com/)
 
 [GitHub](https://github.com/ryomaemura/books-channel)
-### ＜Action Plan＞
-[Action Plan](https://ryomaemura.com/action-plan/)
-
-[GitHub](https://github.com/ryomaemura/action-plan)
 
 ## 【Skills】
 - HTML5
