@@ -9,7 +9,7 @@
 
 学歴：東京電機大学理工学部入学
 
-趣味：ゲーム（ドラクエ / スマブラ）/ 動画を見る / プログラミング
+趣味：読書 / 映画鑑賞 / プログラミング
 
 コメント：高校生の時にプログラミングを初めてそこから自分でモノを作るのが好きになりました
 
@@ -24,14 +24,26 @@
 [GitHub](https://github.com/ryomaemura/books-channel)
 
 ## 【Skills】
-- HTML5
-- CSS3
-- JavaScript
-- jQuery
-- Ruby
-- Ruby on Rails
-- Python
+### 実装可能な内容を箇条書きで一覧表示しています
+
+- HTML5 / CSS3
+  - 基本的なタグやプロパティの使用
+  - 一般的なLPの作成
+  - レスポンシブデザイン
+
+- JavaScript / jQuery
+  - 基本的な構文
+  - スライダーやスクロールアニメーションなどの一般的なプラグインの使用
+
+- Ruby / Ruby on Rails / MySQL
+  - 基本的な構文
+  - 基本的なCRUD操作
+  - 基本的なデータベース設計
+
 - WordPress
+  - HTMLファイルからWordPressへの移行
+  - 固定ページの設計
+  - カテゴリ別のページ設計
 
 ## 【Contact】
 ### メールアドレス
