@@ -222,6 +222,10 @@ ul, li {
   }
 }
 
+.profile-inner {
+  max-width: 1000px;
+}
+
 .profile-item {
   display: -webkit-box;
   display: -ms-flexbox;
