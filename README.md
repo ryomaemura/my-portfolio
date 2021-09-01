@@ -7,7 +7,7 @@
 
 出身：埼玉県
 
-学歴：東京電機大学理工学部入学
+学歴：東京電機大学理工学部2023年卒業予定
 
 趣味：読書 / 映画鑑賞 / プログラミング
 
@@ -22,6 +22,10 @@
 [Books Channel](http://books-channel.herokuapp.com/)
 
 [GitHub](https://github.com/ryomaemura/books-channel)
+### ＜Board Game Rental＞
+[Board Game Rental](https://ryomaemura.com/board-game-rental/)
+
+[GitHub](https://github.com/ryomaemura/board-game-rental)
 
 ## 【Skills】
 ### 実装可能な内容を箇条書きで一覧表示しています
