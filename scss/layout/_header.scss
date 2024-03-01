@@ -18,14 +18,14 @@
 .gnav-item {
   font-size: 1.6rem;
   padding: 0 24px;
-  letter-spacing: .05rem;
+  letter-spacing: 0.05rem;
 }
 
 .gnav-link {
   position: relative;
   display: inline-block;
   padding: 20px 0;
-  transition: .3s;
+  transition: 0.3s;
   color: #333;
 
   &:hover {
@@ -39,7 +39,7 @@
     width: 0;
     height: 3px;
     content: "";
-    transition: .3s;
+    transition: 0.3s;
     transform: translateX(-50%);
     background-color: #333;
   }

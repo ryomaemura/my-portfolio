@@ -1,7 +1,8 @@
 * {
   box-sizing: border-box;
 
-  &:before, &:after {
+  &:before,
+  &:after {
     box-sizing: border-box;
   }
 }
@@ -11,10 +12,10 @@ html {
 }
 
 body {
-  font-family: 'Noto Serif JP', serif;
+  font-family: "Noto Serif JP", serif;
   font-size: 1.5rem;
   line-height: 1.8;
-  letter-spacing: .8px;
+  letter-spacing: 0.8px;
   word-break: break-all;
   color: #333;
 }
@@ -31,7 +32,8 @@ img {
   border-style: none;
 }
 
-ul, li {
+ul,
+li {
   list-style: none;
 }
 
@@ -54,7 +56,7 @@ ul, li {
   font-weight: 400;
   line-height: 1;
   margin-bottom: 15px;
-  letter-spacing: .05em;
+  letter-spacing: 0.05em;
 }
 
 .section-lead {
@@ -83,7 +85,8 @@ ul, li {
 
 // ios
 .ios .gnav-link {
-  &:after, &:hover:after {
+  &:after,
+  &:hover:after {
     display: none;
   }
 }

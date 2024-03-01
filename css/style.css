@@ -12,10 +12,10 @@ html {
 }
 
 body {
-  font-family: 'Noto Serif JP', serif;
+  font-family: "Noto Serif JP", serif;
   font-size: 1.5rem;
   line-height: 1.8;
-  letter-spacing: .8px;
+  letter-spacing: 0.8px;
   word-break: break-all;
   color: #333;
 }
@@ -32,7 +32,8 @@ img {
   border-style: none;
 }
 
-ul, li {
+ul,
+li {
   list-style: none;
 }
 
@@ -54,7 +55,7 @@ ul, li {
   font-weight: 400;
   line-height: 1;
   margin-bottom: 15px;
-  letter-spacing: .05em;
+  letter-spacing: 0.05em;
 }
 
 .section-lead {
@@ -131,14 +132,14 @@ ul, li {
 .gnav-item {
   font-size: 1.6rem;
   padding: 0 24px;
-  letter-spacing: .05rem;
+  letter-spacing: 0.05rem;
 }
 
 .gnav-link {
   position: relative;
   display: inline-block;
   padding: 20px 0;
-  transition: .3s;
+  transition: 0.3s;
   color: #333;
 }
 
@@ -153,7 +154,7 @@ ul, li {
   width: 0;
   height: 3px;
   content: "";
-  transition: .3s;
+  transition: 0.3s;
   transform: translateX(-50%);
   background-color: #333;
 }
@@ -302,7 +303,8 @@ ul, li {
   opacity: 1;
 }
 
-.works-link .mask1, .works-link .mask2 {
+.works-link .mask1,
+.works-link .mask2 {
   width: 50%;
   height: 100%;
   position: absolute;
@@ -384,7 +386,7 @@ ul, li {
   border: 1px solid rgba(0, 0, 0, 0.4);
   box-shadow: 0 1px 5px #ccc;
   cursor: pointer;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .skill-item:hover {
