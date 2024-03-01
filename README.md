@@ -16,7 +16,7 @@
 
 ## 【Works】
 
-### ＜ Action Plan ＞
+### Action Plan
 
 [http://action-plans.herokuapp.com](http://action-plans.herokuapp.com/)
 
@@ -26,7 +26,7 @@
 
 ソースコードは[こちら（GitHub）](https://github.com/ryomaemura/action-plan)です。
 
-### ＜ Books Channel ＞
+### Books Channel
 
 [http://books-channel.herokuapp.com](http://books-channel.herokuapp.com/)
 
@@ -36,7 +36,7 @@
 
 ソースコードは[こちら（GitHub）](https://github.com/ryomaemura/books-channel)です。
 
-### ＜ Board Game Rental ＞
+### Board Game Rental
 
 [https://ryomaemura.com/board-game-rental](https://ryomaemura.com/board-game-rental/)
 
@@ -45,6 +45,25 @@
 ボードゲームは購入だけではなく、レンタルという選択肢があってもいいのではないか、という思いから作成しました。
 
 ソースコードは[こちら（GitHub）](https://github.com/ryomaemura/board-game-rental)です。
+
+## 【Certification】
+
+- 2019 年 08 月 普通自動車第一種運転免許
+- 2021 年 10 月 基本情報技術者試験
+- 2022 年 03 月 IT パスポート試験
+- 2022 年 07 月 情報セキュリティマネジメント試験
+- 2022 年 12 月 応用情報技術者試験
+- 2023 年 03 月 G 検定
+- 2023 年 06 月 Salesforce 認定 アドミニストレーター
+- 2023 年 07 月 AWS Certified Cloud Practitioner
+- 2023 年 08 月 AWS Certified Solutions Architect – Associate
+- 2023 年 09 月 Salesforce 認定 Platform アプリケーションビルダー
+- 2023 年 09 月 Salesforce 認定 Platform デベロッパー
+- 2023 年 11 月 Salesforce 認定 Data アーキテクト
+- 2023 年 12 月 Salesforce 認定 Sharing and Visibility アーキテクト
+- 2023 年 12 月 Salesforce 認定 アプリケーションアーキテクト
+- 2024 年 02 月 Google Cloud Associate Cloud Engineer
+- 2024 年 02 月 Salesforce 認定 Marketing Cloud Account Engagement スペシャリスト
 
 ## 【Skills】
 
